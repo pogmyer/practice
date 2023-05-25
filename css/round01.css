@@ -14,7 +14,6 @@ body {
   border: 2px solid black;
   border-radius: 15%;
   cursor: pointer;
-  z-index: 5;
 }
 
 .dropdown {
@@ -22,6 +21,7 @@ body {
   top: 65px;
   display: inline-block;
   margin-left: 30px;
+  z-index: 30;
 }
 
 .dropdown-content {
@@ -44,7 +44,7 @@ body {
 }
 
 .dropdown-content a:hover {
-    background-color: rgb(71, 41, 32)
+    background-color: rgb(71, 41, 32);
 }
 
 .dropdown:hover .dropdown-content {
@@ -98,12 +98,14 @@ body {
     position: absolute;
     top: -70px;
     left: 10%;
+    z-index: 10;
     
 }
 
 #round {
     border-radius: 50%;
     border: 20px solid rgb(233, 153, 131);
+    z-index: 10;
 }
 
 #letters {
@@ -113,4 +115,37 @@ body {
     position: absolute;
     top: -70px;
     text-shadow: 2px 2px 4px #000000;
+    z-index: 20;
 }
+
+.sq {
+  width: 33%;
+  height: 220px;
+  background-color: white;
+  border-bottom: 2px solid rgb(71, 41, 32);
+  border-left: none;
+  border-top: none;
+  border-right: 2px solid rgb(71, 41, 32);
+}
+
+.rect {
+  width: 55%;
+  height: 300px;
+  background-color: rgb(158, 73, 50);
+  border: 2px solid rgb(71, 41, 32);
+  position: absolute;
+  top: 150px;
+  left: 40%;
+  z-index: 2;
+}
+.inside {
+  width: 90%;
+  height: 280px;
+  background-image: url("../images/diamond01.jpg");
+  border: 2px solid rgb(71, 41, 32);
+  border-radius: 140px;
+  position: absolute;
+  top: 9px;
+  left: 1%;
+  z-index: 2;
+}  
