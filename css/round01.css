@@ -14,6 +14,7 @@ body {
   border: 2px solid black;
   border-radius: 15%;
   cursor: pointer;
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
 }
 
 .dropdown {
@@ -92,6 +93,7 @@ body {
     margin-bottom: 0;
     background: rgb(233, 153, 131);
     position: relative;
+    box-shadow: -6px -1px 10px rgb(71, 41, 32);
 }
 
 .pic {
@@ -99,12 +101,12 @@ body {
     top: -70px;
     left: 10%;
     z-index: 10;
-    
 }
 
 #round {
     border-radius: 50%;
     border: 20px solid rgb(233, 153, 131);
+    box-shadow: -6px -1px 10px rgb(71, 41, 32);
     z-index: 10;
 }
 
@@ -114,14 +116,15 @@ body {
     margin-left: 13%;
     position: absolute;
     top: -70px;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: -6px -1px 4px rgb(71, 41, 32);
     z-index: 20;
 }
 
 .sq {
   width: 33%;
   height: 220px;
-  background-color: white;
+  background-color: rgb(158, 73, 50);
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
   border-bottom: 2px solid rgb(71, 41, 32);
   border-left: none;
   border-top: none;
@@ -137,6 +140,7 @@ body {
   top: 150px;
   left: 40%;
   z-index: 2;
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
 }
 .inside {
   width: 90%;
@@ -148,4 +152,43 @@ body {
   top: 9px;
   left: 1%;
   z-index: 2;
-}  
+}
+
+.inside img {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+}
+
+.next {
+  width: 90%;
+  height: 500px;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(233, 153, 131);
+  border: 6px solid rgb(71, 41, 32);
+  border-radius: 150px;
+  box-shadow: 6px 1px 10px rgb(71, 41, 32);
+}
+
+.next img {
+  transform: rotateY(180deg);
+  margin-top: -100px;
+}
+
+.third {
+  width: 90%;
+  height: 500px;
+  margin-top: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(233, 153, 131);
+  border: 6px solid rgb(71, 41, 32);
+  border-radius: 150px;
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
+}
+
+.third img {
+  margin-top: -100px;
+}
