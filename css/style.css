@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: black
+}
+hr {
+    background-color: brown;
+    width: 80%;
+    height: 2px;
+    border-style: none;
+}
+
+.sectionheading {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: ivory;
+    max-width: 900px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.andsym {
+    text-align: center;
+}
+
+.title {
+    color: chocolate;
+    font-size: 2rem;
+}
