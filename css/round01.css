@@ -177,6 +177,18 @@ body {
   margin-top: -100px;
 }
 
+.nextinside {
+  width: 80%;
+  height: 460px;
+  margin-top: -127px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/diamond01.jpg");
+  border: 3px solid rgb(71, 41, 32);
+  border-radius: 150px;
+  box-shadow: 6px 1px 10px rgb(71, 41, 32);
+}
+
 .third {
   width: 90%;
   height: 500px;
@@ -191,4 +203,16 @@ body {
 
 .third img {
   margin-top: -100px;
+}
+
+.thirdinside {
+  width: 80%;
+  height: 460px;
+  margin-top: -127px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/diamond01.jpg");
+  border: 3px solid rgb(71, 41, 32);
+  border-radius: 150px;
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
 }
