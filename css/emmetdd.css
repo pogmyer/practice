@@ -8,7 +8,7 @@
     border: 2px solid black;
     border-radius: 15%;
     cursor: pointer;
-    box-shadow: -6px -1px 10px rgb(71, 41, 32);
+    box-shadow: 3px 1px 5px rgb(71, 41, 32);
   }
   
   .dropdown {
