@@ -146,7 +146,7 @@ body {
 .inside {
   width: 90%;
   height: 280px;
-  background-image: url("../images/diamond01.jpg");
+  background-image: url("../images/diamond02.jpg");
   border: 2px solid rgb(71, 41, 32);
   border-radius: 140px;
   position: absolute;
@@ -184,7 +184,7 @@ body {
   margin-top: -127px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../images/diamond01.jpg");
+  background-image: url("../images/diamond02.jpg");
   border: 3px solid rgb(71, 41, 32);
   border-radius: 150px;
   box-shadow: 6px 1px 10px rgb(71, 41, 32);
@@ -212,7 +212,7 @@ body {
   margin-top: -127px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("../images/diamond01.jpg");
+  background-image: url("../images/diamond02.jpg");
   border: 3px solid rgb(71, 41, 32);
   border-radius: 150px;
   box-shadow: -6px -1px 10px rgb(71, 41, 32);
@@ -230,4 +230,9 @@ body {
   border-radius: 15%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: -6px -1px 10px rgb(71, 41, 32);
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(158, 73, 50)
 }
