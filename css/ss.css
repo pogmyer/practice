@@ -124,6 +124,11 @@ http://stackoverflow.com/a/34696029/383904
 #s9:target ~ .bullets >*:nth-child(9) {background: rgba(255, 255, 255,   1);}
 #s10:target ~ .bullets >*:nth-child(10) {background: rgba(255, 255, 255,   1);}
 #s11:target ~ .bullets >*:nth-child(11) {background: rgba(255, 255, 255,   1);}
+#s12:target ~ .bullets >*:nth-child(12) {background: rgba(255, 255, 255,   1);}
+#s13:target ~ .bullets >*:nth-child(13) {background: rgba(255, 255, 255,   1);}
+#s14:target ~ .bullets >*:nth-child(14) {background: rgba(255, 255, 255,   1);}
+#s15:target ~ .bullets >*:nth-child(15) {background: rgba(255, 255, 255,   1);}
+#s16:target ~ .bullets >*:nth-child(16) {background: rgba(255, 255, 255,   1);}
 
 /* More slides? Add here more rules */
 
@@ -142,6 +147,11 @@ http://stackoverflow.com/a/34696029/383904
 #s9:target ~ .prevNext >*:nth-child(9) {visibility: visible;}
 #s10:target ~ .prevNext >*:nth-child(10) {visibility: visible;}
 #s11:target ~ .prevNext >*:nth-child(11) {visibility: visible;}
+#s12:target ~ .prevNext >*:nth-child(12) {visibility: visible;}
+#s13:target ~ .prevNext >*:nth-child(13) {visibility: visible;}
+#s14:target ~ .prevNext >*:nth-child(14) {visibility: visible;}
+#s15:target ~ .prevNext >*:nth-child(15) {visibility: visible;}
+#s16:target ~ .prevNext >*:nth-child(16) {visibility: visible;}
 /* More slides? Add here more rules */
 
 /* SLIDER ANIMATION POSITIONS */
@@ -157,6 +167,11 @@ http://stackoverflow.com/a/34696029/383904
 #s9:target ~ .slider {transform: translateX(-800%); -webkit-transform: translateX(-800%);}
 #s10:target ~ .slider {transform: translateX(-900%); -webkit-transform: translateX(-900%);}
 #s11:target ~ .slider {transform: translateX(-1000%); -webkit-transform: translateX(-1000%);}
+#s12:target ~ .slider {transform: translateX(-1100%); -webkit-transform: translateX(-1100%);}
+#s13:target ~ .slider {transform: translateX(-1200%); -webkit-transform: translateX(-1200%);}
+#s14:target ~ .slider {transform: translateX(-1300%); -webkit-transform: translateX(-1300%);}
+#s15:target ~ .slider {transform: translateX(-1400%); -webkit-transform: translateX(-1400%);}
+#s16:target ~ .slider {transform: translateX(-1500%); -webkit-transform: translateX(-1500%);}
 /* More slides? Add here more rules */
 
 
