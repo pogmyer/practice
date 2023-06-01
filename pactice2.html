@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>?</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+    <h2 class="title" id="top"></h2>
+    <nav aria-label="Main">
+        <ul>
+            <li><a href="" aria-current="page">Current Page</a></li>
+            <li><a href="">Another Page</a></li>
+            <li><a href="">Another Page</a></li>
+        </ul>
+    </nav>
+
+
+
+
+<p id="original">thank you</p>
+
+<p id="new"></p>
+
+<script>
+const aVar = document.getElementById("original") 
+    // this gets the contents of id="yaya" from the first paragraph and stores it in the variable "aVar"
+    // so aVar = "WORDS"
+
+
+document.getElementById("new").innerHTML = "no never " + aVar.innerHTML
+    // this assigns to the "innerHTML" of "now" the string of charactors + the "innerHTML" of the variable "aVar"
+    // results: "no never thank you"
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
