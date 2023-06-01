@@ -25,16 +25,15 @@
 <p id="new"></p>
 
 <script>
+
 const aVar = document.getElementById("original") 
-    // this gets the contents of id="yaya" from the first paragraph and stores it in the variable "aVar"
-    // so aVar = "WORDS"
+    // this gets the contents of id="original" from the first paragraph and stores it in the variable "aVar"
+    // so aVar = "thank you"
 
 
-document.getElementById("new").innerHTML = "no never " + aVar.innerHTML
-    // this assigns to the "innerHTML" of "now" the string of charactors + the "innerHTML" of the variable "aVar"
-    // results: "no never thank you"
-
-
+document.getElementById("new").innerHTML = "no " + aVar.innerHTML
+    // this assigns to the "innerHTML" of "new" the string of charactors + the "innerHTML" of the variable "aVar"
+    // results: "thank you" "no thank you"
 
 </script>
 
