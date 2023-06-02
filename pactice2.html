@@ -54,12 +54,29 @@
     document.getElementById("toc").innerHTML = v.innerHTML + " or not " + v.innerHTML + v.innerHTML + v.innerHTML + v.innerHTML
 </script>
 
+
+
+<p id="one">time</p>
+<p id="two"></p>
+
+<script>
+    const v = document.getElementById("one")
+    document.getElementById("two").innerHTML = v.innerHTML + " to go"
+</script>
+
 -->
 
 
+<p id="one">"Writen"</p>
+<p id="two"></p>
 
+<script>
+        // defineVariableToHoldOriginalSentence and set that variable equal to the words in id "one"
+    const v = document.getElementById("one")
 
-
+        // set id "two" to be the innerHTML of the variable holding words in id ""one" and any changes you want to make to it
+    document.getElementById("two").innerHTML = "or " + v.innerHTML + " modified to something else."
+</script>
 
 
 
