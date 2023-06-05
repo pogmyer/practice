@@ -1,3 +1,7 @@
+ body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
  
  a {
     text-decoration: none;
@@ -36,5 +40,22 @@
   #columns {
     margin-top: 50px;
     line-height: 0.05;
+  }
+
+  #list a {
+    margin-left: 0;
+    font-size: 1.4rem;
+    max-width: 222px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+  #list a:hover {
+    color: red;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(121, 120, 120);
   }
  
