@@ -1,6 +1,24 @@
  body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
+
+ .wrapper {
+  max-width: 94%;
+  background-color: rgb(242, 239, 239);
+  padding: 20px;
+  border: 1px dashed rgb(42, 172, 163);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #position, #insert, #reset {
+  background-color: white;
+  border-radius: 13px;
+  border: 1px solid rgb(121, 120, 120);
+  box-shadow: none;
+  padding: 4px;
+ }
  
  
  a {
@@ -23,7 +41,7 @@
   /* mouse over link */
   a:hover {
     color: #ff0000;
-    font-size: 1.01rem;
+    font-size: 1.0rem;
   }
   
   /* selected link */
@@ -44,7 +62,7 @@
 
   #list a {
     margin-left: 0;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     max-width: 222px;
     padding-top: 4px;
     padding-right: 4px;
@@ -55,7 +73,7 @@
   }
   #list a:hover {
     color: red;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(121, 120, 120);
   }
  
